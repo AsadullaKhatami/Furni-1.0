@@ -20,7 +20,7 @@ nav{
 
 nav > h1 {
     color: #fff;
-    font-size: 35px;
+    font-size: 36px;
 }
 
 .menus{
@@ -64,7 +64,7 @@ nav > h1 {
 
 .contain > h1{
     color: #fff;
-    font-size: 45px;
+    font-size: 36px;
 }
 
 .contain > p{
@@ -135,7 +135,7 @@ nav > h1 {
 }
 
 .text h2{
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 30px;
 }
 
@@ -196,4 +196,39 @@ nav > h1 {
     grid-template-columns: 300px 300px;
     grid-template-rows: 50% 50%;
     grid-gap: 30px 10px;
+}
+
+#blogs{
+    padding: 0 85px 0 85px;
+}
+
+#blogs > .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#blogs > .head > h1{
+    font-size: 36px;
+}
+
+#blogs > .body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-body img{
+    width: 400px;
+    border-radius: 1rem;
+}
+
+.blog-body h2{
+    font-size: 20px;
+    padding: 10px 0 4px 0;
+}
+
+.blog-body span{
+    color: #92a9a6;
 }
