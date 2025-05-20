@@ -91,6 +91,7 @@ nav > h1 {
 #shop-btn{
     border: 1px solid #f2c12b;
     background-color: #f2c12b;
+    color: #ccc;
     margin-right: 1rem;
 }
 
@@ -115,4 +116,42 @@ nav > h1 {
     position: absolute;
     bottom: 250px;
     left: 1240px;
+}
+
+#crafted{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 50px 0;
+    padding: 0px 85px;
+}
+
+.text {
+    width: 300px;
+    padding: 30px 0px;
+}
+
+.text h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.text > p{
+    color: #92a9a6;
+}
+
+#btn-e{
+    margin-top: 30px;
+    background-color: black;
+    color: #fff;
+}
+
+.product img{
+    width: 400px;
+}
+.product h5, .product p{
+    text-align: center;
 }
