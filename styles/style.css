@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main{
+    overflow: hidden;
+}
+
 header{
     background-color: #3b5d4f;
     max-width: 100vw;
@@ -153,7 +157,7 @@ main{
 }
 
 .product img{
-    width: 400px;
+    width: 80%;
 }
 .product h5, .product p{
     text-align: center;
@@ -203,6 +207,7 @@ main{
 
 #blogs{
     padding: 0 85px 0 85px;
+    height: 100vh;
 }
 
 #blogs > .head {
@@ -234,4 +239,125 @@ main{
 
 .blog-body span{
     color: #92a9a6;
+}
+footer{
+    padding: 50px 85px 0px 85px;
+}
+
+#form{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-con h2{
+    color: #4e645a;
+    font-size: 24px;
+}
+
+.form-con form input{
+    font-size: 20px;
+    border: 2px solid #4e645a;
+    outline: none;
+    border-radius: .4rem;
+    width: 320px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.form-con button{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4e645a;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+#sofa > img{
+    width: 400px;
+    position: relative;
+    bottom: 100px;
+}
+
+#link-part{
+    display: flex;
+}
+
+.content-area{
+    width: 25%;
+    padding: 0px 5px 20px 0px;
+}
+
+.content-area h2{
+    font-size: 36px;
+    color: #4e645a;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.content-area p{
+    color: #4e645a;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 40px 0px;
+}
+.media a{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #92a9a6;
+    color: white;
+}
+
+.link-pages{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-pages ul li{
+    padding: 5px 15px;
+    list-style: none;
+}
+
+.link-pages ul li a{
+    text-decoration: none;
+    color: #4e645a;
+}
+
+#Copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #4e645a;
+    padding: 20px 0px 50px 0px;
+}
+
+#Copyright p{
+    color: #4e645a;
+}
+
+#Copyright ul{
+    display: flex;
+    align-items: center;
+}
+
+#Copyright ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+#Copyright ul li a{
+    text-decoration: none;
+    color: #4e645a;
 }
