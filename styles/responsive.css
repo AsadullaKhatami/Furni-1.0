@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+
+    nav, #heros{
+        padding: 0 30px 0 30px;
+    }
+    .menus-bar{
+        display: flex;
+    }
+
+    #bar-icon{
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    #menu-section{
+        flex-direction: column;
+        justify-content: start;
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        background-color: #3b5d4f;
+        height: 100vh;
+        width: 100%;
+        border: 2px solid red;
+        transition: 0.4s;
+    }
+
+    #menu-section li{
+        margin-bottom: 30px;
+    }
+
+    .menus-bar > input[type="checkbox"]{
+        display: none;
+    }
+
+    #heros{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    #img1{
+        width: 40%;
+        bottom: 100px;
+        left: 300px;
+    }
+
+    #img2{
+        width: 100%;
+        position:relative;
+        left: 0;
+        top: 0;
+    }
+}

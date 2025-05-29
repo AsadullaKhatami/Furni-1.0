@@ -361,3 +361,7 @@ footer{
     text-decoration: none;
     color: #4e645a;
 }
+
+.menus-bar{
+    display: none;
+}
