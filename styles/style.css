@@ -226,13 +226,15 @@ main{
 }
 
 #blogs > .body{
+    width: 90vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .blog-body img{
-    width: 400px;
+    width: 80%;
     border-radius: 1rem;
 }
 

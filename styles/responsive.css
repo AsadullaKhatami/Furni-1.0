@@ -107,6 +107,18 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
+
+    /* blog section for small */
+
+    #blogs{
+        padding: 0 auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    #blogs > .body{
+        flex-direction: column;
+    }
 }
 
 /* responsive for medium */
@@ -182,5 +194,54 @@
     .product{
         text-align: center;
         margin-top: 20px;
+    }
+
+    /* why choose us */
+
+    #why-choose-us{
+        flex-direction: column-reverse;
+        padding: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .left-img{
+        height: 50vh;
+    }
+
+    #why-choose-us-img{
+        top: 100px;
+        left: 0;
+        width: 100%;
+    }
+
+    #dots-yellow-img{
+        position: absolute;
+        width: 50%;
+        right: 200px;
+    }
+
+    #choose{
+        height: auto;
+    }
+
+    #choose .text p{
+        width: 70vw;
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    /* blog section for medium */
+
+    #blogs{
+        padding: 0 auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    #blogs > .body{
+        flex-direction: column;
     }
 }
