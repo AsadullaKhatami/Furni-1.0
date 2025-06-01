@@ -67,20 +67,22 @@
 
                 <a href="#" id="btn-e" class="btn">Explore</a>
             </div>
-            <div class="product">
-                <img src="images/product-1.png" alt="product-1" srcset="">
-                <h5>Nordic Chair</h5>
-                <p>$50.00</p>
-            </div>
-            <div class="product">
-                <img src="images/product-2.png" alt="product-2" srcset="">
-                <h5>Kruzo Aero Chair</h5>
-                <p>$78.00</p>
-            </div>
-            <div class="product">
-                <img src="images/product-3.png" alt="product-3" srcset="">
-                <h5>Ergonomic Chair</h5>
-                <p>$43.00</p>
+            <div class="products">
+                <div class="product">
+                    <img src="images/product-1.png" alt="product-1" srcset="">
+                    <h5>Nordic Chair</h5>
+                    <p>$50.00</p>
+                </div>
+                <div class="product">
+                    <img src="images/product-2.png" alt="product-2" srcset="">
+                    <h5>Kruzo Aero Chair</h5>
+                    <p>$78.00</p>
+                </div>
+                <div class="product">
+                    <img src="images/product-3.png" alt="product-3" srcset="">
+                    <h5>Ergonomic Chair</h5>
+                    <p>$43.00</p>
+                </div>
             </div>
         </section>
 
@@ -234,10 +236,10 @@
         let menuSection = document.querySelector("#menu-section");
 
         barIcon.addEventListener("click", () => {
-            if(menuSection.style.left == "0%"){
+            if (menuSection.style.left == "0%") {
                 menuSection.style.left = "-100%";
 
-            }else{
+            } else {
                 menuSection.style.left = "0%";
             }
         });
